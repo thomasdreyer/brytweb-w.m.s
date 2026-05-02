@@ -1,26 +1,31 @@
+# Brytweb CMS
 
-Brytweb is a website management tool that you can use to build
+Brytweb is a lightweight website management tool for building and running a personal or small-business website.
 
-and manage your own website.
+## 2027-Ready Quick Start
 
+1. **Download or clone** this repository.
+2. **Upload** the project files to your PHP-enabled web host.
+3. Open `https://yourdomain.com/admin.php` in your browser.
+4. Complete setup and choose your site type:
+   - **Portfolio** for showcasing projects
+   - **Blog** for publishing posts
+   - **Store** for selling products and services
+5. After setup, sign in from your custom admin URL (if renamed) or your default admin page.
 
-To get started:
+## Recommended Modern Deployment Practices
 
-1. download the zip file
+To keep Brytweb reliable in 2027 and beyond:
 
-2. upload to your webhost
+- Use **HTTPS only** (TLS certificate enabled).
+- Run on a supported **PHP 8.x** version from your hosting provider.
+- Keep file permissions strict (avoid world-writable folders where possible).
+- Back up your database and uploaded assets on a scheduled basis.
+- Change default admin paths and use strong passwords.
+- Apply updates to dependencies and server software regularly.
 
-3. go to http://www.yourwebsite.com/admin.php 
+## Default Paths
 
-4. Add your info and selected which type of website you'd like to build:
-
-*Portfolio website to showcase your projects.
-
-*Blog website to publish your blog's on.
-
-*eCommerce website to sell your goods/services from.
-
-
-5.once setup completes you can navigate to www.yourwebsite.com/THE-UNIQUE-ADMIN-PAGE.php or to
- what ever you changed admin.php to and login.
+- Site home: `https://yourdomain.com/`
+- Admin entry: `https://yourdomain.com/admin.php`
 
